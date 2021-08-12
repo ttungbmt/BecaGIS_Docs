@@ -15,6 +15,7 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
+
 }
 
 .docusaurus-highlight-code-line {
@@ -26,4 +27,20 @@
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+.dropdown > .navbar__link:after {
+  border-width: 0.25em 0.25em 0;
+  margin-left: 0.5em;
+  color: #c1c0c0;
+}
+
+.navbar__link {
+  padding-bottom: 7px;
+  padding-top: 7px;
+}
+
+.dropdown__menu {
+  padding: 0.3rem;
 }
