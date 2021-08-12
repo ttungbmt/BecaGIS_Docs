@@ -5,9 +5,8 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+    branches:
+      - master
 
 jobs:
   build:
@@ -26,5 +25,22 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm install
-    - run: npm run build --if-present
+
+    - name: Enter dependency
+      run: npm to install
+
+    - name: Build
+      run: npm run build --if-present
+
+    - name: Deploy to GH Pages
+      run: |
+        git config --global user.name $user_name
+        git config --global user.email $user_email
+        git remote set-url origin https://${github_token}@github.com/${repository}
+        npm run docs:deploy
+      env:
+        user_name: 'ttungbmt'
+        user_email: 'ttungbmt@gmail.com'
+        github_token: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
+        repository: ${{ github.repository }}
+
