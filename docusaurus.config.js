@@ -3,7 +3,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
+  title: 'Docs',
   tagline: 'Dinosaurs are cool',
   url: 'https://ttungbmt.com.github.io',
   baseUrl: '/BecaGIS_Docs/',
@@ -14,9 +14,9 @@ module.exports = {
   projectName: 'BecaGIS_Docs', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Docs',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Docs Logo',
         src: 'img/logo.svg',
       },
       items: [
