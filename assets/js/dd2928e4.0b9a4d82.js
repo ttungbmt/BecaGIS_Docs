@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbeca_gis_docs=self.webpackChunkbeca_gis_docs||[]).push([[271],{3775:function(s){s.exports=JSON.parse('{"allTagsPath":"/BecaGIS_Docs/blog/tags","slug":"docusaurus","name":"docusaurus","count":3,"permalink":"/BecaGIS_Docs/blog/tags/docusaurus"}')}}]);
