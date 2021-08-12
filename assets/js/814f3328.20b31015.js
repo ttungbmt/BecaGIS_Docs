@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbeca_gis_docs=self.webpackChunkbeca_gis_docs||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/BecaGIS_Docs/blog/welcome"},{"title":"Hello","permalink":"/BecaGIS_Docs/blog/hello-world"},{"title":"Hola","permalink":"/BecaGIS_Docs/blog/hola"}]}')}}]);
