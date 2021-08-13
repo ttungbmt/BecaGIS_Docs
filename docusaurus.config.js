@@ -158,9 +158,10 @@ module.exports = {
             copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
         },
         prism: {
-            theme: lightCodeTheme,
-            darkTheme: darkCodeTheme,
-            additionalLanguages: ['docker'],
+            // theme: lightCodeTheme,
+            // darkTheme: darkCodeTheme,
+            // theme: require('./src/js/monokaiTheme.js'),
+            additionalLanguages: ['powershell', 'php', 'nginx', 'ini'],
         },
         hideableSidebar: true,
     },
@@ -174,13 +175,13 @@ module.exports = {
                     sidebarPath: require.resolve('./sidebars.js'),
                     // Please change this to your repo.
                     editUrl:
-                        'https://github.com/facebook/docusaurus/edit/master/website/',
+                        'https://github.com/ttungbmt/BecaGIS_Docs/tree/master/',
                 },
                 blog: {
                     showReadingTime: true,
                     // Please change this to your repo.
                     editUrl:
-                        'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+                        'https://github.com/ttungbmt/BecaGIS_Docs/tree/master/blog/',
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
@@ -188,4 +189,6 @@ module.exports = {
             },
         ],
     ],
+
+    plugins: ['@docusaurus/plugin-ideal-image'],
 };

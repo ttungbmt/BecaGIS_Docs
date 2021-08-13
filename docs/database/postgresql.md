@@ -2,11 +2,25 @@
 title: PostgreSQL
 ---
 
+### Adds a geometry column
+
+```sql
+SELECT AddGeometryColumn ('public', 'my_table', 'geom', 4326, 'POINT', 2);
+```
+
+### Spatial Indexing
+```sql
+CREATE INDEX my_table_geom_idx ON my_table USING GIST (geom);
+
+DROP INDEX my_table_geom_idx;
+```
+
+
 ### Fulltext Search
 
 ### Natural sort
 
-```shell
+```sql
 create or replace function natural_sort(text)
     returns bytea language sql immutable strict as $f$
     select string_agg(convert_to(coalesce(r[2], length(length(r[1])::text) || length(r[1])::text || r[1]), 'SQL_ASCII'),'\x00')

@@ -4,3 +4,5 @@ Run local
 "allowed_domains": ["192.168.1.12"]
 
 
+
+[https://developers.home-assistant.io](https://github.com/home-assistant/developers.home-assistant)

@@ -23,6 +23,23 @@ module.exports = {
     windows: [
         'os/windows',
         'os/windows/wsl',
+    ],
+    geoportal: [
+        'projects/geoportal',
+        {
+            type: 'category', label: 'Getting Started', collapsed: false, items: [
+                'projects/geoportal/installation',
+                'projects/geoportal/configuration',
+                'projects/geoportal/folder-structure',
+            ]
+        },
+        {
+            type: 'category', label: 'Support', items: [
+                'projects/geoportal/troubleshooting',
+                'projects/geoportal/faq',
+            ]
+        },
+
     ]
 
     // But you can create a sidebar manually
