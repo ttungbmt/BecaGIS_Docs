@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbeca_gis_docs=self.webpackChunkbeca_gis_docs||[]).push([[9627],{104:function(e,c,t){t.r(c);var n=t(7294),l=t(6347),s=t(6598),a=t(9962);c.default=function(){var e=(0,a.Z)().siteConfig;return n.createElement(l.Z,null,n.createElement("h2",null,"Site config"),n.createElement(s.Z,{src:e,collapseDepth:"3"}))}}}]);
