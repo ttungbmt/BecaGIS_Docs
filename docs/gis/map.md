@@ -20,7 +20,8 @@ Basic Parameter Configuration:
 3. hl = Your country code (as long as google support it, hl means Host Language) (en - English, fr - France,...)
 
 ### Other
-
-- Vietbando: http://images.vietbando.com/ImageLoader/GetImage.ashx?LayerIds=RC_VN&Level={z}&X={x}&Y={y}
-- OSM: http://tile.openstreetmap.org/{z}/{x}/{y}.png
-- BecaGIS Maps: https://thuduc-maps.hcmgis.vn/thuducserver/gwc/service/wmts?layer=thuduc:thuduc_maps&style=&tilematrixset=EPSG:900913&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image/png&TileMatrix=EPSG:900913:{z}&TileCol={x}&TileRow={y}
+  | Name      | URI  |
+  | ----------| ---- |
+  | Vietbando | http://images.vietbando.com/ImageLoader/GetImage.ashx?LayerIds=RC_VN&Level={z}&X={x}&Y={y} |
+  | OpenStreetMap | http://tile.openstreetmap.org/{z}/{x}/{y}.png |
+  | BecaGIS Maps | https://thuduc-maps.hcmgis.vn/thuducserver/gwc/service/wmts?layer=thuduc:thuduc_maps&style=&tilematrixset=EPSG:900913&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image/png&TileMatrix=EPSG:900913:{z}&TileCol={x}&TileRow={y} |
