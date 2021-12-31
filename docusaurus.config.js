@@ -52,6 +52,8 @@ module.exports = {
                         {label: 'Geoserver', to: 'docs/gis/geoserver'},
                         {label: 'ArcGIS', to: 'docs/gis/arcgis'},
                         {label: 'QGIS', to: 'docs/gis/qgis'},
+                        {label: 'Map', to: 'docs/gis/map'},
+                        {label: '3D Map', to: 'docs/gis/map3D'},
                     ]
                 },
                 {
